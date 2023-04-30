@@ -36,10 +36,20 @@ img {
   justify-content: center;
 }
 
+footer h1 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
 .hero-left h1 {
   font-size: 46px;
   font-weight: 500;
   line-height: 1.2;
+}
+
+footer p {
+  font-size: 21px;
+  font-weight: 400;
 }
 
 .hero-left p {
@@ -52,13 +62,13 @@ img {
 .hero__btn {
   padding: 12px 24px;
   background-color: lightblue;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   border-radius: 50px;
   cursor: pointer;
 }
 
 .work {
-  background-color: #333333;
+  background-color: #333;
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -75,7 +85,7 @@ img {
 .work-section__text {
   text-align: center;
   padding: 20px 0;
-  box-shadow: 5px #888888;
+  box-shadow: 5px #888;
 }
 
 .work-section__text h3 {
@@ -86,16 +96,6 @@ img {
 footer {
   padding: 50px 0;
   text-align: center;
-}
-
-footer h1 {
-  font-size: 46px;
-  font-weight: 700;
-}
-
-footer p {
-  font-size: 21px;
-  font-weight: 400;
 }
 
 @media (max-width: 800px) {
