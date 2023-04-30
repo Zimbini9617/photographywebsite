@@ -9,3 +9,21 @@ body {
   margin: 0 auto;
   height: 100vh;
 }
+
+img {
+  width: 100%;
+}
+
+.hero {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.hero__image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
